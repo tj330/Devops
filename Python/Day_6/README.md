@@ -2,7 +2,8 @@
 
 Take user input for two integers and divide them. Handle: ValueError if input is not an integer, ZeroDivisionError for division by zero.
 
-    $ python3 Enter first number: 5
+    $ python3 int.py
+    Enter first number: 5
     Enter second number: 0
     Cannot divide by zero.
     
