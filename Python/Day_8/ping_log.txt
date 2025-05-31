@@ -1,0 +1,9 @@
+PING google.com (2404:6800:4007:80f::200e) 56 data bytes
+64 bytes from maa05s05-in-x0e.1e100.net (2404:6800:4007:80f::200e): icmp_seq=1 ttl=118 time=20.9 ms
+64 bytes from maa05s05-in-x0e.1e100.net (2404:6800:4007:80f::200e): icmp_seq=2 ttl=118 time=20.6 ms
+64 bytes from maa05s05-in-x0e.1e100.net (2404:6800:4007:80f::200e): icmp_seq=3 ttl=118 time=38.6 ms
+64 bytes from maa05s05-in-x0e.1e100.net (2404:6800:4007:80f::200e): icmp_seq=4 ttl=118 time=21.5 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3006ms
+rtt min/avg/max/mdev = 20.615/25.389/38.591/7.628 ms

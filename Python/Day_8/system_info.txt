@@ -1,0 +1,15 @@
+Platform information:
+
+                    OS name: Linux
+
+                    release: 6.11.0-26-generic
+ 
+                    version: #26~24.04.1-Ubuntu SMP PREEMPT_DYNAMIC Thu Apr 17 19:20:47 UTC 2
+ 
+                    machine type: x86_64
+ 
+                    hostname: tj330
+ 
+                    architecture: ('64bit', 'ELF')
+ 
+            

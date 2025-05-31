@@ -1,0 +1,25 @@
+2025-06-01 09:30:01,142 - my_service - INFO - [PID 2345] Starting background job scheduler
+2025-06-01 09:30:01,143 - my_service - INFO - [PID 2345] Loaded config from /etc/my_service/config.yaml
+2025-06-01 09:30:01,144 - my_service - DEBUG - [PID 2345] Environment: production
+2025-06-01 09:30:01,200 - my_service - INFO - [PID 2345] Connecting to database...
+2025-06-01 09:30:01,345 - my_service - INFO - [PID 2345] Connection established
+2025-06-01 09:30:01,400 - my_service - INFO - [PID 2345] Scheduling task: heartbeat every 10s
+2025-06-01 09:30:10,002 - my_service - INFO - [PID 2345] Task heartbeat: OK
+2025-06-01 09:30:20,003 - my_service - INFO - [PID 2345] Task heartbeat: OK
+2025-06-01 09:30:30,008 - my_service - WARNING - [PID 2345] Task heartbeat: slow response detected
+2025-06-01 09:30:30,009 - my_service - DEBUG - [PID 2345] Last ping duration: 521ms
+2025-06-01 09:30:40,001 - my_service - INFO - [PID 2345] Task heartbeat: OK
+2025-06-01 09:30:50,011 - my_service - INFO - [PID 2345] Task heartbeat: OK
+2025-06-01 09:31:00,120 - my_service - INFO - [PID 2345] Running cleanup task
+2025-06-01 09:31:00,122 - my_service - DEBUG - [PID 2345] Deleted 3 temporary files
+2025-06-01 09:31:10,003 - my_service - INFO - [PID 2345] Task heartbeat: OK
+2025-06-01 09:31:20,015 - my_service - INFO - [PID 2345] Task heartbeat: OK
+2025-06-01 09:31:30,030 - my_service - ERROR - [PID 2345] Task heartbeat failed: TimeoutError
+2025-06-01 09:31:30,031 - my_service - DEBUG - [PID 2345] Stack trace: TimeoutError: No response from server in 5s
+2025-06-01 09:31:30,032 - my_service - INFO - [PID 2345] Retrying task in 10s...
+2025-06-01 09:31:40,000 - my_service - INFO - [PID 2345] Task heartbeat: OK
+2025-06-01 09:31:50,004 - my_service - INFO - [PID 2345] Task heartbeat: OK
+2025-06-01 09:32:00,100 - my_service - INFO - [PID 2345] Running system check
+2025-06-01 09:32:00,104 - my_service - INFO - [PID 2345] System check: all dependencies OK
+2025-06-01 09:32:10,004 - my_service - INFO - [PID 2345] Task heartbeat: OK
+2025-06-01 09:32:20,005 - my_service - INFO - [PID 2345] Task heartbeat: OK
